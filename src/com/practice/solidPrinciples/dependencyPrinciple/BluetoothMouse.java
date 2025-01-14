@@ -6,5 +6,4 @@ public class BluetoothMouse implements Mouse {
 	public void mouseType() {
 		System.out.println("bluetooth mouse");
 	}
-
 }

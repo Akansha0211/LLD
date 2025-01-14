@@ -7,8 +7,6 @@ public class DependencyInversion {
 		WiredMouse mouse = new WiredMouse();
 		MacBook mac = new MacBook(keyboard, mouse);
 		
-		mac.getMouseType();
-		
+		mac.getMouseType();		
 	}
-
 }
