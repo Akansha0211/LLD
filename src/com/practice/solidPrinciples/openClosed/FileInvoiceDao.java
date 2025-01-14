@@ -6,5 +6,4 @@ public class FileInvoiceDao implements InvoiceDao{
 	public void save(Invoice invoice) {
 		System.out.println("saves to file");
 	}
-
 }
