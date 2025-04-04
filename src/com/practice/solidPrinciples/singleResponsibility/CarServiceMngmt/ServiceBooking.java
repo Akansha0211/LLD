@@ -1,5 +1,7 @@
+package com.practice.solidPrinciples.singleResponsibility.CarServiceMngmt;
 public class ServiceBooking{
-    public static void bookingService(Car car){
-        
+	
+    public void bookingCarService(Car car) {
+    	System.out.println("Service booked for:" + car.getModel() + ", Reg: " + car.getRegistrationNumber());
     }
 }

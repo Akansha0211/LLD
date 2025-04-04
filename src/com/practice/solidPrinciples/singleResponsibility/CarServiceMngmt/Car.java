@@ -1,3 +1,4 @@
+package com.practice.solidPrinciples.singleResponsibility.CarServiceMngmt;
 /*
 
 You're building a simple backend service for a car service center. You are given a class that does multiple things:
@@ -36,12 +37,12 @@ Each one responsible for a single thing, instead of one monolithic class doing i
  */
 public class Car{
 
-    String model;
-    String registrationNumber;
-    int year;
+    private final String model;
+    private final String registrationNumber;
+    private final int year;
 
-    public Car(String modelNumber, String registrationNumber, int year){
-        this.modelNumber = modelNumber;
+    public Car(String model, String registrationNumber, int year){
+        this.model = model;
         this.registrationNumber = registrationNumber;
         this.year = year;
     }
